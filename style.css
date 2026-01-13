@@ -1,5 +1,5 @@
 /* =========================
-   GLOBAL / RESET....
+GLOBAL / RESET....
 ========================= */
 * {
   box-sizing: border-box;
@@ -8,19 +8,18 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #0b0c1a;
-  color: #f0f0f0;
-  background-image: url("starry_sun.jpg");
+  background-image: linear-gradient(to bottom , #a7a7fd, #441ba0, #2a0957);
+  color: #aaaaff;
   background-size: cover;
   background-repeat: repeat-y;
   background-attachment: fixed;
 }
 
 /* =========================
-   NAVBAR
+NAVBAR
 ========================= */
 .navbar {
-  background-color: #1b1d3a;
+  background-image: linear-gradient(#2a0957,  #441ba0, #a7a7fd);
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -50,7 +49,7 @@ body {
 }
 
 /* =========================
-   PAGE LAYOUT
+PAGE LAYOUT
 ========================= */
 .home-card {
   max-width: 1200px;
@@ -59,18 +58,18 @@ body {
 }
 
 /* =========================
-   CARDS
+CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(28, 31, 47, 0.95);
+  background-color: #2a0957;
   margin: 2em auto;
   padding: 1.5em;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+  border-radius: 25px;
+  box-shadow: 0 0 16px white;
 }
 
 /* =========================
-   BIO SECTION
+BIO SECTION
 ========================= */
 .bio {
   display: flex;
@@ -98,7 +97,7 @@ body {
 }
 
 /* =========================
-   PROJECT LAYOUT
+PROJECT LAYOUT
 ========================= */
 .project {
   display: flex;
@@ -133,7 +132,7 @@ body {
 }
 
 /* =========================
-   LINKS / ICONS
+LINKS / ICONS
 ========================= */
 .skill-images {
   display: flex;
@@ -159,7 +158,7 @@ body {
 }
 
 /* =========================
-   FOOTER
+FOOTER
 ========================= */
 footer {
   text-align: center;
@@ -168,7 +167,7 @@ footer {
 }
 
 /* =========================
-   RESPONSIVE
+RESPONSIVE
 ========================= */
 @media (max-width: 900px) {
   .project {
