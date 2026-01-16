@@ -61,7 +61,7 @@ PAGE LAYOUT
 CARDS
 ========================= */
 .resource-card {
-  background-color: #2a0957;
+  background-color: #570949;
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 25px;
@@ -82,7 +82,7 @@ BIO SECTION
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #8900ff;
+  border: 3px solid #ff00c8;
   object-fit: cover;
 }
 
@@ -93,7 +93,7 @@ BIO SECTION
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: #ccccff;
+  color: #f2ccff;
 }
 
 /* =========================
@@ -110,13 +110,13 @@ PROJECT LAYOUT
   min-width: 320px;
   height: 450px;
   border: none;
-  background-color: rgb(32, 3, 52);
+  background-color: rgb(52, 3, 52);
   border-radius: 8px;
 }
 
 .reflection {
   flex: 1;
-  background-color: rgba(89, 15, 191, 0.33);
+  background-color: rgba(191, 15, 179, 0.33);
   padding: 1em;
   border-radius: 8px;
 }
