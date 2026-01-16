@@ -8,7 +8,7 @@ GLOBAL / RESET....
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-image: linear-gradient(to bottom , #a7a7fd, #441ba0, #2a0957);
+  background-image: linear-gradient(30deg, #d3d3ff, #7539d1, #3a005e,#08000d);
   color: #aaaaff;
   background-size: cover;
   background-repeat: repeat-y;
@@ -19,7 +19,7 @@ body {
 NAVBAR
 ========================= */
 .navbar {
-  background-image: linear-gradient(#2a0957,  #441ba0, #a7a7fd);
+  background-image: linear-gradient(30deg,#08000d,#3a005e,  #7539d1,#d3d3ff);
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -65,7 +65,7 @@ CARDS
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 25px;
-  box-shadow: 0 0 16px white;
+  box-shadow: 0 0 16px #ff00fe;
 }
 
 /* =========================
@@ -82,7 +82,7 @@ BIO SECTION
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #5555aa;
+  border: 3px solid #8900ff;
   object-fit: cover;
 }
 
@@ -110,25 +110,25 @@ PROJECT LAYOUT
   min-width: 320px;
   height: 450px;
   border: none;
-  background-color: white;
+  background-color: rgb(32, 3, 52);
   border-radius: 8px;
 }
 
 .reflection {
   flex: 1;
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(89, 15, 191, 0.33);
   padding: 1em;
   border-radius: 8px;
 }
 
 .reflection h3 {
   margin-top: 0;
-  color: #aaaaff;
+  color: #ffffff;
 }
 
 .reflection p {
   font-size: 0.95em;
-  color: #dddddd;
+  color: #ffffff;
 }
 
 /* =========================
